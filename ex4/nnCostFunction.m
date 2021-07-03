@@ -124,5 +124,4 @@ grad = [Theta1_grad(:) ; Theta2_grad(:)];
 
 thetaVec=[Theta1(:);Theta2(:)];
 
-print("++++")
 end
