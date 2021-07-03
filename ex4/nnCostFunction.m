@@ -98,7 +98,7 @@ J = -1/m*sum(sum(y.*log(a3) + (1 - y).*log(1 - a3))) + lambda/(2*m)*(sum(sum(The
 
 % -------------------------------------------------------------
 
-d_3 = (a3 - y);#.*sigmoidGradient(z3);
+d_3 = (a3 - y);
 
 d_2 = d_3*Theta2;
 d_2 = d_2(:, 2:end);
